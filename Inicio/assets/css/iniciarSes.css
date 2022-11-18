@@ -1,13 +1,12 @@
 *{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
 }
 .cuadro{
   width:50%;
   height:40%;
   border-radius: 8px;
   padding:2%;
-  margin-top: 45px;
+  margin-top: 55px;
   margin-bottom: 15px;
   margin-left: 55px;
   position: relative;
@@ -22,6 +21,9 @@
   border-radius: 40px;
   border: none;
   padding: 15px 32px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  justify-self: center;
   text-align: center;
   text-decoration: none;
   display: inline-block;
