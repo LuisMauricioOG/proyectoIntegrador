@@ -1,0 +1,11 @@
+*{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cuadro{
+  width:90%;
+  height:0;
+  padding:10%;
+  position:relative;
+  background:rgb(227, 74, 120);
+}

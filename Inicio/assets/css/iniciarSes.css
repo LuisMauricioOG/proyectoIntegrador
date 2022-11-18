@@ -1,0 +1,38 @@
+*{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cuadro{
+  width:50%;
+  height:40%;
+  border-radius: 8px;
+  padding:2%;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  margin-left: 55px;
+  position: relative;
+  background:rgb(227, 74, 120);
+}
+.derecha{
+  text-align: right;
+}
+.boton{
+  color: rgb(255, 255, 255);
+  background-color: rgb(227, 74, 120);
+  border-radius: 40px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+}
+p{
+  align-items: center;
+}
+u{
+  color: rgb(227, 74, 120);
+}
