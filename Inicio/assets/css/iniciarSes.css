@@ -12,22 +12,22 @@
   position: relative;
   background:rgb(227, 74, 120);
 }
-.derecha{
-  text-align: right;
-}
-.boton{
+button{
   color: rgb(255, 255, 255);
   background-color: rgb(227, 74, 120);
   border-radius: 40px;
   border: none;
+  align-items: center;
   padding: 15px 32px;
-  margin-top: 45px;
-  margin-bottom: 45px;
-  justify-self: center;
+  margin-top: 155px;
+  margin-bottom: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
+}
+#boton{
+  margin-top: 25px;
 }
 h2{
   text-align: center;
