@@ -33,12 +33,13 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
   *{
-    font-family: var(--font-family-sans-serif);
+   
 }
 .section-title{
   color: var(--pink1);
 }
 .contenedor-grande{
+    font-family: var(--font-family-sans-serif);
     background-color: var(--light);
 }
 .contenedor-formulario{
