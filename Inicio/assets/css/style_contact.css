@@ -8,7 +8,8 @@
     --pink2: #F292A4;
     --colorgradiente1: #F54EA2;
     --colorgradiente2: #FF7676;
-    --gradiente1: linear-gradient(var(--pink2),var(--colorgradiente1),var(--colorgradiente2));
+    --gradiente1: linear-gradient(var(--colorgradiente2),var(--pinkLight),transparent);
+    --gradiente2: linear-gradient(var(--pink2),var(--colorgradiente1),var(--colorgradiente2));
     --colorGradiente3:#f38650;
     --colorGradiente4:#e05ba2;
     --colorGradiente5:#CD4BC9;
@@ -49,11 +50,11 @@
 }
 
 body{
-  /*background: var(--gradiente1); */
+  background: var(--gradiente1); 
  }
 .form-control{
-  background-color: var(--pinkLight);
-  opacity:0.65;
+  background-color: var(--light);
+  opacity: 0.85;
   
 }
 
@@ -74,8 +75,9 @@ body{
 }
 
 .contacto-formulario{
-    background-color: var(--pink2);
-    background: var(--gradiente1);
+    opacity: 0.5;
+    box-shadow: 0 0 20px rgb(255, 87, 221);
+    background-color: var(--colorgradiente1);
 }
 
   @media (prefers-reduced-motion: reduce) {
@@ -92,7 +94,7 @@ body{
   .btn-primary {
     color: var(--gray-dark);
     font-weight: 1000;
-    font-size:40px;
+    font-size:20px;
     border-radius: 40px;
     background-color: var(--light);
     border-color: #F195B2;
