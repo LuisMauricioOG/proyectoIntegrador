@@ -72,12 +72,13 @@ nav{ background-color: rgb(255, 227, 193);
 
     .navbar-expand-lg .navbar-nav .nav-link{
 /*       padding:auto; */
+      /*justify-content: space-around;*/
        padding: 0rem 0.2rem 0rem 6rem;
       position: relative;
     }
     .navbar-expand-lg .navbar-nav .nav-link1{
       padding: 0rem 0.2rem 0rem 0.5rem;
-
+       /*justify-content: space-around;*/
       position: relative;
     }
 /* fin de footer de arriba*/
@@ -205,35 +206,49 @@ h3{font-size: 15px;
 
 .carousel-inner{
   margin: auto;
-  justify-content: center;
+ 
  width: 70%;
   text-align: center; 
-  border: 3px blue solid;
+
 }
 .contcarr{
-  border: 3px red solid;
-  width: 100%;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+width: auto;
 }
+
 .mv{
-  width: 80%;
-  height: 800px;
+  width:auto;
+  height: 657px;
   margin:auto;
-  border: 3px red solid;
-  background-color: aqua;
   margin-bottom: 20px;
   
 }
-.contvision{
-width: 50%;
-  border: 3px red solid;
-}
-.contmision{
- 
- width: 50%;
-  border: 3px red solid;
-}
 
-.mvs {text-align: center;}
-.carousel-control-prev-icon{
-color: aqua;
+
+.container-fluid-historia{
+  background-color: rgb(255, 175, 220);
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.container-fluid-mvs {
+  background-color: blanchedalmond;
+ padding-bottom: 10px;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 30px;
+  margin: auto;
+  font-size: 20px;
+  width: 70%;
+  text-align: justify;
+margin-top: 50px;
+margin-bottom: 50px;
 }
